@@ -18,11 +18,11 @@
  *   this, we have to override the theme function. You have to first find the
  *   theme function that generates the output, and then "catch" it and modify it
  *   here. The easiest way to do it is to copy the original function in its
- *   entirety and paste it here, changing the prefix from theme_ to helios_.
+ *   entirety and paste it here, changing the prefix from theme_ to STARTERKIT_.
  *   For example:
  *
  *     original: theme_breadcrumb()
- *     theme override: helios_breadcrumb()
+ *     theme override: STARTERKIT_breadcrumb()
  *
  *   where STARTERKIT is the name of your sub-theme. For example, the
  *   zen_classic theme would define a zen_classic_breadcrumb() function.
@@ -68,7 +68,7 @@
  *   The name of the template being rendered ("html" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function helios_preprocess_html(&$variables, $hook) {
+function STARTERKIT_preprocess_html(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 
   // The body tag's classes are controlled by the $classes_array variable. To
@@ -86,7 +86,7 @@ function helios_preprocess_html(&$variables, $hook) {
  *   The name of the template being rendered ("page" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function helios_preprocess_page(&$variables, $hook) {
+function STARTERKIT_preprocess_page(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -100,11 +100,11 @@ function helios_preprocess_page(&$variables, $hook) {
  *   The name of the template being rendered ("node" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function helios_preprocess_node(&$variables, $hook) {
+function STARTERKIT_preprocess_node(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 
   // Optionally, run node-type-specific preprocess functions, like
-  // helios_preprocess_node_page() or helios_preprocess_node_story().
+  // STARTERKIT_preprocess_node_page() or STARTERKIT_preprocess_node_story().
   $function = __FUNCTION__ . '_' . $variables['node']->type;
   if (function_exists($function)) {
     $function($variables, $hook);
@@ -121,7 +121,7 @@ function helios_preprocess_node(&$variables, $hook) {
  *   The name of the template being rendered ("comment" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function helios_preprocess_comment(&$variables, $hook) {
+function STARTERKIT_preprocess_comment(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -135,7 +135,7 @@ function helios_preprocess_comment(&$variables, $hook) {
  *   The name of the template being rendered ("block" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function helios_preprocess_block(&$variables, $hook) {
+function STARTERKIT_preprocess_block(&$variables, $hook) {
   // Add a count to all the blocks in the region.
   $variables['classes_array'][] = 'count-' . $variables['block_id'];
 }
