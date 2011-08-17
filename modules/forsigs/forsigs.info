@@ -1,0 +1,5 @@
+me = forsigs
+description = a modual made by a complete beginner to add a signature item to the users profile
+core=7.x
+dependencies[] = forum
+dependencies[] = advacned_forum
