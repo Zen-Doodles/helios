@@ -18,7 +18,7 @@
  *   this, we have to override the theme function. You have to first find the
  *   theme function that generates the output, and then "catch" it and modify it
  *   here. The easiest way to do it is to copy the original function in its
- *   entirety and paste it here, changing the prefix from theme_ to Zendoodles_.
+ *   entirety and paste it here, changing the prefix from theme_ to STARTERKIT_.
  *   For example:
  *
  *     original: theme_breadcrumb()

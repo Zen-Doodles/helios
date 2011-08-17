@@ -35,9 +35,8 @@ body {
 }
 
 #page hr{
-  height:  6px;
+  height:  10px;
   width:  960px;
-  background-color: black;
 }
 
 /*

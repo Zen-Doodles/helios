@@ -12,14 +12,24 @@
  * Body
  */
 body {
-  margin: 0;
-  padding: 0;
+  background-color:#999999;
 }
 
 #page-wrapper {
+  margin-left: 130px;
+  margin-right: 20px;
+  padding-left: -20px;
+  padding-right: -20px;
 }
 
-#page {
+#page {  
+  outline: on;
+  outline-color: #eeeeee;
+  outline-width: 5px;
+  outline-style: solid;
+  background-color:#ffffff;
+
+  
 }
 
 /*
@@ -32,7 +42,7 @@ body {
   width: 100%;
   padding: 2px 0 3px 0;
   text-align: center;
-  background-color: #666;
+  background-color: #ff66cc;
   color: #fff;
 }
 
@@ -40,6 +50,7 @@ body {
  * Header
  */
 #header {
+color: # ffff00;
 }
 
 #header .section {
@@ -88,9 +99,13 @@ div#site-name /* The name of the website */ {
  * Main (container for everything else)
  */
 #main-wrapper {
+  display: block;
+  
 }
 
 #main {
+  background-color: #ffffff;
+
 }
 
 /*
@@ -211,9 +226,11 @@ ul.links li {
  * (see the layout.css file.)
  */
 .region-sidebar-second {
+  background-color: #ffffff;
 }
 
 .region-sidebar-second .section {
+  background-color: #ffffff;
 }
 
 /*

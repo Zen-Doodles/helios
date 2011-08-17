@@ -12,8 +12,8 @@
 ; page at admin/appearance.
 
 screenshot  = screenshot.png
-name        = Zen Sub-theme Starter Kit
-description = Read the <a href="http://drupal.org/node/873778">online docs</a> or the included README.txt on how to create a theme with Zen.
+name        = Zendoodles_theme
+description = Zendoodles base theme
 
 
 
@@ -35,7 +35,7 @@ base theme  = zen
 
 stylesheets[all][]        = css/html-reset.css
 stylesheets[all][]        = css/wireframes.css
-stylesheets[all][]        = css/layout-fixed.css
+stylesheets[all][]        = css/layout-960.css
 stylesheets[all][]        = css/page-backgrounds.css
 stylesheets[all][]        = css/tabs.css
 stylesheets[all][]        = css/pages.css
