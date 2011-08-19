@@ -34,7 +34,10 @@ body {
   width: 960px;
 }
 
-#page {
+#page hr{
+  height:  6px;
+  width:  960px;
+  background-color: black;
 }
 
 /*
