@@ -21,9 +21,16 @@
 }
 
 h2.block-title /* Block title */ {
+    color: #00ffe6;
+    font-family: Papyrus;
+    outline: on;
+    outline-color: #666666;
+    outline-width: 2px;
+    outline-style: solid;
 }
 
 .block .content /* Block's content wrapper */ {
+    background-color: #383838;
 }
 
 #block-aggregator-category-1 /* Block for the latest news items in the first category */ {

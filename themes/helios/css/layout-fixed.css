@@ -111,6 +111,7 @@ body {
 .with-navigation #content,
 .with-navigation .region-sidebar-first,
 .with-navigation .region-sidebar-second {
+    background-color: #383838;
   margin-top: 3em; /* Set this to the same value as the navigation height above. */
 }
 
@@ -171,6 +172,7 @@ body {
 .region-sidebar-second,
 .region-footer,
 .region-bottom {
+    background-color: #ffffff;
   overflow: visible;
   word-wrap: break-word; /* A very nice CSS3 property */
 }

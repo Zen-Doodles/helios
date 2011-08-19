@@ -8,13 +8,14 @@
  * The active item in a Drupal menu
  */
 li a.active {
-  color: #000;
+  color: #8b3dff;
 }
 
 /*
  * Navigation bar
  */
 #navigation {
+    background-color: #383838;
   /* overflow: hidden; /* Sometimes you want to prevent overlapping with main div. */
 }
 

@@ -7,6 +7,10 @@
 
 
 .node /* Node wrapper */ {
+    outline: on;
+    outline-color: #666666;
+    outline-width: 2px;
+    outline-style: solid;
 }
 
 .preview .node /* Preview of the content before submitting new or updated content */ {
@@ -54,6 +58,7 @@
 }
 
 h2.node-title /* Node title */ {
+    font-family: Papyrus;
 }
 
 .node .user-picture /* The picture of the node author */ {

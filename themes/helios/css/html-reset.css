@@ -30,6 +30,7 @@ body {
 
 #skip-to-nav,
 #page {
+    color: #27cf27;
   /*
    * To use a 12px font size on the page, delete the 14px declarations.
    * to use a 14px font size on the page, delete the 12px declarations.
@@ -110,7 +111,7 @@ fieldset {
 
    */
 
-  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-family: Arial;
 }
 
 pre,
@@ -331,9 +332,12 @@ button {
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 a:link {
+    color: #8b3dff;
+    background-color: #383838;
 }
 
 a:visited {
+    color: #2c2cf5;
 }
 
 a:hover,
