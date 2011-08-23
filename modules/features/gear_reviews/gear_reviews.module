@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Gear Reviews feature.
+ */
+
+include_once('gear_reviews.features.inc');
