@@ -8,4 +8,7 @@ function helios_install() {
   include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
   standard_install();
 }
+function run_helios_install_tasks($hprofile){
+  run => helios.profile
+  }
 ?>

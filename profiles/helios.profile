@@ -1,9 +1,11 @@
 <?php
-$task['machine_name'] = array(
-  'display_name' => st('Human-readable task name'),
-  'display' => TRUE,
-  'type' => 'normal',
-  'run' => INSTALL_TASK_RUN_IF_REACHED,
-  'function' => 'function_to_execute',
-);
-?>
+/**
+ * Implement hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function helios_install() {
+  include_once DRUPAL_ROOT . '/profiles/helios.profile';
+  standard_install();
+}
+
