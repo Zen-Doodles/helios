@@ -1,0 +1,9 @@
+<?php
+function fortune_help($path, $arg) {
+switch ($path) {
+case "admin/help#current_posts":
+return '<p>'. t("A module that allows for a fortune block") .'</p>';
+break;
+}
+}
+?>

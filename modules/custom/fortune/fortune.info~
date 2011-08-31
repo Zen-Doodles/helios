@@ -1,0 +1,4 @@
+
+Name=Fortune Module
+description=A module that allows for a fortune block
+core=7.x
